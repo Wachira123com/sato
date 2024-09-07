@@ -1,0 +1,20 @@
+<body>
+    <div class="navbar" id="myNavbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0)" class="navbar-toggle"onclick="tooggleNavbar()">&#9776;</a>
+    </div>
+    <script>
+        function tooggleNavbar() {
+            var navbar=
+            document.getElementById("myNavbar");
+            if (navbar . className === "navbar") {
+                navbar .className += " responsive" ;
+            } else {
+                navbar .className ="navbar";
+            }
+        }
+    </script>
+</body>
